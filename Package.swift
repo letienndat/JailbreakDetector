@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "X04Checker",
-            path: "Sources/X04Checker"
+            path: "dist"
         ),
         .testTarget(
             name: "X04CheckerTests",
